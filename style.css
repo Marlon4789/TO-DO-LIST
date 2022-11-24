@@ -1,0 +1,117 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+html {
+    font-size: 62.5%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(223, 229, 234);
+}
+body {
+    display: flex;
+    align-items: center;
+    font-size: 1.9rem;
+    background-color: #1b1b1e;
+    justify-content: center;
+}
+#main-container {
+    width: 500px;
+    margin: 100px;
+    padding: 20px 5px 30px 5px;
+    border-radius: 10px;
+    border: 2px solid rgb(29, 106, 222);
+    background-color: #1c1b22;
+    text-align: center;
+}
+.box-titulo {
+    width: 100%;
+    background-image: linear-gradient(#012251, #0c3c80, #0952b8);
+    padding: 50px 0;
+    border-radius: 10px;
+}
+#container-to-do-list {
+    max-width: 500px;
+    padding-bottom: 10px;
+}
+.add-input {
+    width: 100%;
+    padding: 20px 0 20px 0;
+}
+.main-form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 0 3px 0 3px;
+    gap: 5px;
+}
+.input-text {
+    margin-bottom: 3px;
+    padding: 10px; 
+    background-color: #0e0e0eef;
+    color: aliceblue;
+    border: 2px solid rgb(53, 126, 235); 
+    border-radius: 10px;
+    font-size: 1.8rem;
+}
+.input-text:hover {
+    border: 2px solid rgb(29, 106, 222);
+}
+.input-submit {
+    padding: 8px;
+    background-color: rgb(29, 106, 222);
+    border: none;
+    color: aliceblue;
+    border-radius: 10px;
+    font-size: 1.8rem;
+}
+.input-submit:hover {
+    background-color: rgb(34, 113, 232);
+}
+#mostrar-todo-conatiner {
+    display: flex;
+    justify-content: center;
+    max-width: 500px;
+    margin: 0 3px 0 3px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(23, 171, 36);
+}
+input.input-checkbox {
+    width: 20px;
+    height: 20px;
+    border-radius: 8px;
+}
+.pendiente {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 500px;
+    padding: 10px;
+    margin: 0 3px 5px 3px;
+    border-radius: 10px;
+    background-color: #121215;
+}
+.form_eliminar .input-eliminar {
+    padding: 8px;
+    background-color: rgb(212, 49, 49);
+    border: none;
+    color: aliceblue;
+    border-radius: 10px;
+    font-size: 1.8rem;
+}
+.input-eliminar:hover {
+    background-color: rgb(181, 24, 24);
+}
+.form_actualizar {
+    display: flex;
+    gap: 5px;
+}
+.contador-tareas {
+    width: 100%;
+    margin-top: 20px;
+    padding: 5px;
+    text-align: center;
+    border-radius: 10px;
+    border: 2px solid rgb(23, 171, 36);
+}
